@@ -1,0 +1,215 @@
+* {
+    font-family: arial;
+    padding: 0;
+    text-align: center;
+}
+
+:root {
+    --MainColor: #FFD700   ;
+}
+
+body {
+    background-color: #0D0D0D   ;
+}
+
+p {
+    color: var(--MainColor);
+    font-size: 30px;
+}
+
+img {  
+    width: 100px;
+    border-radius: 50%;
+    grid-column: 5/5;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.Nav {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    font-weight: bold;
+    border-bottom: var(--MainColor) solid 10px;
+}
+
+p:nth-child(2) {
+    grid-column: 4/5;
+    cursor: pointer;
+}
+
+p:nth-child(1) {
+    grid-column: 1/3;
+    text-align: left;
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.Main .Video {
+    margin-top: 60px;
+    border-radius: 5px;
+    border: var(--MainColor) solid 15px;
+    border-right: var(--MainColor) solid 80px;
+    width: 640px;
+    grid-column: 2/4;
+}
+
+.Video img {
+    position: absolute;
+    width: 70px;
+    left: 785px;
+}
+
+
+.bxs-like {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 44px;
+    top: 300px;
+    
+}
+
+.Video:nth-child(1) p {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 30px;
+    top: 320px;
+    font-weight: bold
+}
+
+.bx-low-vision {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 44px;
+    top: 400px;
+    
+}
+
+.Video:nth-child(1) p:nth-child(5) {
+    color: #0D0D0D;
+    position: absolute;
+    left: 785px;
+    font-size: 30px;
+    top: 420px;
+    font-weight: bold
+}
+
+/* next one  */
+
+.x {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 44px;
+    top: 750px;
+    
+}
+
+.Video:nth-child(2) p {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 30px;
+    top: 770px;
+    font-weight: bold
+}
+
+.y {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 44px;
+    top: 850px;
+    
+}
+
+.Video:nth-child(2) p:nth-child(5) {
+    color: #0D0D0D;
+    position: absolute;
+    left: 785px;
+    font-size: 30px;
+    top: 870px;
+    font-weight: bold
+}
+
+/* next one  */
+
+
+.v {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 44px;
+    top: calc(799px + 400px);
+}
+
+.Video:nth-child(3) p {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 30px;
+    top: calc(799px + 420px);
+    font-weight: bold
+}
+
+.f {
+    color: #0D0D0D;
+    position: absolute;
+    left: 799px;
+    font-size: 44px;
+    top: calc(799px + 500px);
+    
+}
+
+.Video:nth-child(3) p:nth-child(5) {
+    color: #0D0D0D;
+    position: absolute;
+    left: 785px;
+    font-size: 30px;
+    top: calc(799px + 520px);
+    font-weight: bold
+}
+
+
+
+.bx-home-alt {
+    color: var(--MainColor);
+    position: absolute;
+    font-size: 120px;
+    bottom: 120px;
+    border-radius: 50%;
+    left:50%;
+    translate: -50%;
+}
+
+.Footer i + p {
+    position: absolute;
+    bottom: 20px;
+    font-size: 50px;
+    left: 50%;
+    translate: -50% 0;
+}
+
+.bx-home-alt, .Footer i + p {
+    cursor: pointer;
+}
+
+
+hr {
+    height: 1px;
+    background-color: var(--MainColor);
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    height: 10px;
+}
